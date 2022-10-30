@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.portfolio.eyb.Security.Dto;
+package com.portfolio.eyb.Dto;
 
 import javax.validation.constraints.NotBlank;
 

@@ -8,7 +8,7 @@ package com.portfolio.eyb.Controller;
 
 import com.portfolio.eyb.Entity.Hys;
 import com.portfolio.eyb.Security.Controller.Mensaje;
-import com.portfolio.eyb.Security.Dto.dtoHys;
+import com.portfolio.eyb.Dto.dtoHys;
 import com.portfolio.eyb.Service.SHys;
 import java.util.List;
 import org.apache.commons.lang3.StringUtils;
@@ -26,8 +26,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/hys")
-@CrossOrigin(origins = "http://localhost:4200")
+@RequestMapping("/skill")
+@CrossOrigin(origins = {"https://backendeyb.herokuapp.com/","http://localhost:4200"})
 public class CHys {
     @Autowired
     SHys sHys;
