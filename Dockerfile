@@ -1,4 +1,4 @@
 FROM amazoncorretto:8-alpine-jdk
 MAINTAINER EYB
-COPY target/eyb-0.0.1-SNAPSHOT.jar eyb-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/eyb-0.0.1-SNAPSHOT.jar"]
+COPY target/eyb-0.0.1-SNAPSHOT.jar eyb-app.jar
+ENTRYPOINT ["java","-jar","/eyb-app.jar"]
